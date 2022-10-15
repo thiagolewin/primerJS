@@ -1,0 +1,35 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.llave {
+    margin: 10px;
+    background-color: lightblue;
+    padding: 0 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 440px;
+    border: 2px solid #333;
+    
+}
+.llave:hover,.llave:focus{
+    border: 2px solid #71a154;
+    box-shadow: 0px 0px 30px #317124;
+}
+.llave img {
+    width: 80%;
+}
+
+.llave p b {
+    color: #71a154;
+}
